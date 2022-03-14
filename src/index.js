@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import About from "./Components/About";
+import Sources from "./Components/Sources";
+import Bounce from "./Components/Modules/bounce"
+import Datastructures from "./Components/Modules/datastructures"
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />}/>
+      <Route path="code" element={<Sources />}/>
+      <Route path="about" element={<About />} />
+      <Route path="datastructures" element={<Datastructures/>} />
+      <Route path="bounce" element={<Bounce/>} />
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

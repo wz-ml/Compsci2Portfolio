@@ -9,6 +9,7 @@ const BounceSim = props => {
         context.fillRect(0, 0, context.canvas.width, context.canvas.height)
         }, [])
 
+    
     return <canvas ref={canvasRef} {...props}>If you can see this, your browser likely doesn't support HTML canvas rendering.</canvas>
 }
 export default BounceSim;

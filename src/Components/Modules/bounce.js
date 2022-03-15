@@ -1,7 +1,7 @@
 import NavbarModule from "../Navbar"
 import React from "react"
 import BounceSim from "./bouncesim"
-import {Container, Card} from "react-bootstrap"
+import {Container} from "react-bootstrap"
 export default function Bounce() {
     return (
         <main>

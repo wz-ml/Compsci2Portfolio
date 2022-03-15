@@ -15,6 +15,12 @@ export default function Home() {
     return (
         <main>
             <Container>
+            <Card className="text-center bg-success text-white rounded border-3">
+                <Card.Body>
+                    <h1>Compsci 25 Projects</h1>
+                    <h4>2022, William Z</h4> 
+                </Card.Body>
+            </Card>
             <Particles
             id="tsparticles"
             init={particlesInit}
@@ -96,15 +102,9 @@ export default function Home() {
                 },
                 },
                 detectRetina: true,
-            }}
-            />                
-                <Card>
-                    <Card.Body>
-                        <Card.Title>Compsci 25 Projects</Card.Title>
-                        <Card.Text>2022</Card.Text> 
-                    </Card.Body>
-                    <Card.Footer>By Will Z</Card.Footer>
-                </Card>
+            }}>
+            </Particles>    
+
             </Container>
             <Container className="text-center border-dark bg-primary text-white rounded border-3">
                 <h1>Modules</h1>
@@ -112,7 +112,7 @@ export default function Home() {
             <Container>
                 <Row>
                 <Col>
-                <Container fluid>
+                <Container>
                 <Card style={{width: "18rem"}} className="text-center">
                     <Card.Img variant="top" src= {DSIcon} fluid/>
                     <Card.Body>
@@ -136,7 +136,7 @@ export default function Home() {
                     <Card.Text>A particle collision simulator, written using JS using modular functions.</Card.Text>
                     <Button variation="primary" href="bounce">Go there</Button>
                 </Card.Body>
-                <Card.Footer className="text-muted">Mar 15, 2022</Card.Footer>
+                <Card.Footer className="text-muted">Under Construction</Card.Footer>
                 </Card>
                 </Container>
                 </Col>

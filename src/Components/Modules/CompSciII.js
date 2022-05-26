@@ -17,7 +17,7 @@ export default function CompSciII({Component, pageProps}) {
             <div style={{margin:150}}>
                 <h2>Project</h2>
                 <h5>To see the code, press the "show files" button!</h5>
-                <iframe frameborder="0" width="100%" height="1000px" src="https://replit.com/@WilliamZhou18/BinarySearch?embed=true"></iframe></div>
+                <iframe title="BinarySearchEmbed" frameborder="0" width="100%" height="1000px" src="https://replit.com/@WilliamZhou18/BinarySearch?embed=true"></iframe></div>
         </main>
     )
 }

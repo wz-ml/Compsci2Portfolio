@@ -1,4 +1,5 @@
 import {useRef, useEffect} from 'react'
+import React from "react"
 
 const BounceSim = props => {
     const canvasRef = useRef(null)

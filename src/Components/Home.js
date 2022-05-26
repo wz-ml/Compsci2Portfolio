@@ -1,6 +1,7 @@
 import React from "react"
 import DSIcon from "../Assets/data structures.jpg"
 import PProgrammingIcon from "../Assets/blocks.jpeg"
+import CSIcon from "../Assets/CSIcon.jpg"
 import {Container, Card, Button, Row, Col} from "react-bootstrap"
 import Particles from "react-tsparticles"
 
@@ -114,14 +115,12 @@ export default function Home() {
                 <Col>
                 <Container>
                 <Card style={{width: "18rem"}} className="text-center">
-                    <Card.Img variant="top" src= {DSIcon} fluid/>
+                    <Card.Img variant="top" src= {CSIcon} fluid/>
                     <Card.Body>
-                        <Card.Title>Data Structures</Card.Title>
-                        <Card.Text>An illustration of the most commonly-used data structures in computer science: 
-                        <br/>
-                        Heaps, Lists, Stacks, and Queues
+                        <Card.Title>Computer Science 2 - Concepts and Practice</Card.Title>
+                        <Card.Text>A rundown of the history, paradigms, and basic design principles of project-oriented software.
                         </Card.Text>
-                        <Button variation="primary" href="datastructures">Go there</Button>
+                        <Button variation="primary" href="CompsciII">Go there</Button>
                     </Card.Body>
                     <Card.Footer className="text-muted">Mar 12, 2022</Card.Footer>
                 </Card>
@@ -133,15 +132,24 @@ export default function Home() {
                 <Card.Img variant="top" src= {PProgrammingIcon}/>
                 <Card.Body>
                     <Card.Title>Procedural Programming</Card.Title>
-                    <Card.Text>A particle collision simulator, written using JS using modular functions.</Card.Text>
+                    <Card.Text>A tic-tac-toe simulator, written using C++ using modular functions.</Card.Text>
                     <Button variation="primary" href="bounce">Go there</Button>
                 </Card.Body>
-                <Card.Footer className="text-muted">Under Construction</Card.Footer>
+                <Card.Footer className="text-muted">May 14th, 2022</Card.Footer>
                 </Card>
                 </Container>
                 </Col>
                 <Col>
                 <Container fluid>
+                <Card style={{width: "18rem"}} className="text-center">
+                <Card.Img variant="top" src= {DSIcon}/>
+                <Card.Body>
+                    <Card.Title>Data Structures</Card.Title>
+                    <Card.Text>Exploring different ways to manipulate a database and the ways that different data structures can speed up or slow down computation.</Card.Text>
+                    <Button variation="primary" href="bounce">Go there</Button>
+                </Card.Body>
+                <Card.Footer className="text-muted">May 26th, 2022</Card.Footer>
+                </Card>
                 </Container>
                 </Col>
                 </Row>

@@ -8,6 +8,7 @@ import About from "./Components/About";
 import Sources from "./Components/Sources";
 import Bounce from "./Components/Modules/bounce"
 import Datastructures from "./Components/Modules/datastructures"
+import CompSciII from "./Components/Modules/CompSciII"
 
 ReactDOM.render(
   <BrowserRouter>
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Route path="about" element={<About />} />
       <Route path="datastructures" element={<Datastructures/>} />
       <Route path="bounce" element={<Bounce/>} />
+      <Route path="CompSciII" element={<CompSciII/>} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

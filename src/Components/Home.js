@@ -132,8 +132,8 @@ export default function Home() {
                 <Card.Img variant="top" src= {PProgrammingIcon}/>
                 <Card.Body>
                     <Card.Title>Procedural Programming</Card.Title>
-                    <Card.Text>A tic-tac-toe simulator, written using C++ using modular functions.</Card.Text>
-                    <Button variation="primary" href="bounce">Go there</Button>
+                    <Card.Text>A two-player Connect-4 battle, written using C++ using the modular programming paradigm.</Card.Text>
+                    <Button variation="primary" href="ProceduralProgrammingI">Go there</Button>
                 </Card.Body>
                 <Card.Footer className="text-muted">May 14th, 2022</Card.Footer>
                 </Card>
@@ -146,7 +146,7 @@ export default function Home() {
                 <Card.Body>
                     <Card.Title>Data Structures</Card.Title>
                     <Card.Text>Exploring different ways to manipulate a database and the ways that different data structures can speed up or slow down computation.</Card.Text>
-                    <Button variation="primary" href="bounce">Go there</Button>
+                    <Button variation="primary" href="DataStructuresI">Go there</Button>
                 </Card.Body>
                 <Card.Footer className="text-muted">May 26th, 2022</Card.Footer>
                 </Card>

@@ -6,8 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./Components/About";
 import Sources from "./Components/Sources";
-import Bounce from "./Components/Modules/bounce"
-import Datastructures from "./Components/Modules/datastructures"
+import ProceduralProgrammingI from "./Components/Modules/ProceduralProgrammingI"
+import DatastructuresI from "./Components/Modules/DataStructuresI"
 import CompSciII from "./Components/Modules/CompSciII"
 
 ReactDOM.render(
@@ -16,8 +16,8 @@ ReactDOM.render(
       <Route path="/" element={<App />}/>
       <Route path="code" element={<Sources />}/>
       <Route path="about" element={<About />} />
-      <Route path="datastructures" element={<Datastructures/>} />
-      <Route path="bounce" element={<Bounce/>} />
+      <Route path="DataStructuresI" element={<DatastructuresI/>} />
+      <Route path="ProceduralProgrammingI" element={<ProceduralProgrammingI/>} />
       <Route path="CompSciII" element={<CompSciII/>} />
     </Routes>
   </BrowserRouter>,

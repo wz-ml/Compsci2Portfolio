@@ -19,6 +19,7 @@
     "react": "^17.0.2",
     "react-bootstrap": "^2.2.1",
     "react-dom": "^17.0.2",
+    "react-jupyter-notebook": "^0.4.0",
     "react-notion": "^0.10.0",
     "react-notion-x": "^6.12.9",
     "react-router-dom": "^6.2.2",

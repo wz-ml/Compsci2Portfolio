@@ -1,13 +1,13 @@
 import "react-notion/src/styles.css";
 import "prismjs/themes/prism-tomorrow.css";
 import { NotionRenderer } from "react-notion";
-import responsept1 from "./page_1_response.json";
-import responsept2 from "./page_1_response_pt2.json";
 import 'rc-dropdown/assets/index.css'
 import 'katex/dist/katex.min.css'
 import NavbarModule from "../Navbar"
 import React from "react"
 import {Container} from "react-bootstrap";
+import responsept1 from "./page_1_response.json";
+import responsept2 from "./page_1_response_pt2.json";
 
 const blockMap1 = responsept1;
 const blockMap2 = responsept2;

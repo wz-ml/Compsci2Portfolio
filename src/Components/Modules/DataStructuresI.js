@@ -11,6 +11,7 @@ import JupyterViewer from "react-jupyter-notebook";
 import nb_test from "./Dijkstra's Algorithm.ipynb.json"; // You need to read the .ipynb file into a JSON Object.
 import response1 from "./page_3_response.json";
 import response2 from "./page_3_response_2.json";
+
 const blockMap1 = response1;
 const blockMap2 = response2;
 

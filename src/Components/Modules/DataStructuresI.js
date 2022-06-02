@@ -32,6 +32,9 @@ export default function DataStructuresI() {
             </React.StrictMode>
             </Container>
             <Container className = "d-flex justify-content-center mt-3 mb-3">
+            <iframe title="BinarySearchEmbed" frameborder="0" width="80%" height="675px" src="https://replit.com/@WilliamZhou18/Dijkstras-Algorithm?embed=true"></iframe>
+            </Container>
+            <Container className = "d-flex justify-content-center mt-3 mb-3">
             <div style={{maxWidth: 768, justifyContent: 'center', alignItems: 'center' }}>
                 <NotionRenderer blockMap = {blockMap2} />
             </div>

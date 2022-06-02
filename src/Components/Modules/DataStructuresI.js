@@ -9,8 +9,10 @@ import {Container} from "react-bootstrap"
 import ReactDOM from 'react-dom';
 import JupyterViewer from "react-jupyter-notebook";
 import nb_test from "./Dijkstra's Algorithm.ipynb.json"; // You need to read the .ipynb file into a JSON Object.
-import response from "./page_3_response.json";
-const blockMap = response;
+import response1 from "./page_3_response.json";
+import response2 from "./page_3_response_2.json";
+const blockMap1 = response1;
+const blockMap2 = response2;
 
 export default function DataStructuresI() {
     return (
@@ -21,13 +23,18 @@ export default function DataStructuresI() {
             </Container>
             <Container className = "d-flex justify-content-center mt-3 mb-3">
             <div style={{maxWidth: 768, justifyContent: 'center', alignItems: 'center' }}>
-                <NotionRenderer blockMap = {blockMap} />
+                <NotionRenderer blockMap = {blockMap1} />
             </div>
             </Container>
             <Container className = "d-flex justify-content-center mt-3 mb-3">
             <React.StrictMode>
             <JupyterViewer rawIpynb={nb_test}/>
             </React.StrictMode>
+            </Container>
+            <Container className = "d-flex justify-content-center mt-3 mb-3">
+            <div style={{maxWidth: 768, justifyContent: 'center', alignItems: 'center' }}>
+                <NotionRenderer blockMap = {blockMap2} />
+            </div>
             </Container>
         </main>
     )
